@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkan</title>
+</head>
+<body style="background-color: rgb(255, 0, 0);">
+    <h1 align="center"><b>Biodata Diri</b></h1>
+    <table border="1" style="width: 100%;border-color: blue;" align="center">
+        <tr style="background-color: black; color: aliceblue;">
+            <th colspan="2">No</th>
+            <th rowspan="2">Nama Siswa</th>
+            <th colspan="4">Pendidikan</th>
+            <th rowspan="2">Foto</th>
+        </tr>
+        <tr style="color: aliceblue; background-color: black;">
+            <th>Absen</th>
+            <th>NISN</th>
+            <th>TK</th>
+            <th>SD</th>
+            <th>SMP</th>
+            <th>SMK</th>
+        </tr>
+        <tr>
+            <th>30</th>
+            <th>25092008</th>
+            <th>Prananda Arkan Ramadhan</th>
+            <th>RA Muslimat NU Tegal Randu</th>
+            <th>SDN Kleteran 1</th>
+            <th>SMPN 1 Grabag</th>
+            <th>SMKN 2 Kota Magelang</th>
+            <th><img src="data:image/jpeg;base64,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" alt="Rama"></th>
+        </tr>
+    </table>
+    <h1 align="center"><b>Tabel Produk</b></h1>
+    <table border="1" style="width: 100%;" align="center">
+<tr style="background-color: black; color: aliceblue;">
+    <th colspan="4">YAMAHA MIO M3 125</th>
+</tr>
+<tr>
+    <th rowspan="3"><img src="https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023120410412654949D4272.png" alt="MIO M3" style="width: 50%; height: 50%;"></th>
+    <th colspan="2" style="background-color: black; color: aliceblue;">Type</th>
+    <th colspan="2">Yamaha Mio M3 125</th>
+</tr>
+<tr>
+    <th colspan="2" style="background-color: black; color: aliceblue;">Price</th>
+    <th colspan="2">Rp 17.750.000</th>
+</tr>
+<tr>
+    <th colspan="2" style="background-color: black; color: aliceblue;">Specification</th>
+    <th colspan="2">
+        <details align="left">
+            <summary>Mesin</summary>
+            <p>
+                Tipe Mesin	            :	Air cooled 4-stroke, SOHC <br>
+                Kapasitas Oli Mesin	    :	Total = 0,84 L ; Berkala = 0,80 L <br>
+                Susunan Silinder	    :	Single cylinder <br>
+                Diameter x Langkah  	:	52,4 x 57,9 mm <br>
+                Perbandingan Kompresi	:	9,5 : 1 <br>
+                Volume Silinder	        :	125 cc <br>
+                Daya Maksimum	        :	7,0 kW / 8000 rpm <br>
+                Torsi Maksimum	        :	9.6 Nm / 5500 rpm <br>
+                Sistem Starter	        :	Electric & Kick Starter <br>
+                Sistem Pelumasan	    :	Wet Sump <br>
+                Sistem Bahan Bakar	    :	Fuel Injection <br>
+                Tipe Kopling	        :	Dry, Centrifugal Automatic <br>
+                Tipe Transmisi	        :	V-Belt Automatic</p><br>
+        </details>
+        <details align="left">
+            <summary>Rangka</summary>
+            <p>
+ Tipe Rangka	    :	Underbone <br>
+Suspensi Depan	    :	Teleskopik <br>
+Suspensi Belakang	:	Unit Swing <br>
+Ban Depan	        :	70/90-14M/C (34P) <br>
+Ban Belakang	    :	80/90-14M/C (40P) <br>
+Rem Depan	        :	Hydraulic Single Disc Brake <br>
+Rem Belakang	    :	Drum Brake <br>
+            </p><br>
+        </details>
+        <details align="left">
+            <summary>Dimensi</summary>
+            <p>
+                
+P X L X T            	:	1870mm X 685mm X 1035mm <br>
+Jarak Sumbu Roda	    :	1260 mm <br>
+Jarak Terendah Ke Tanah	:	135 mm <br>
+Tinggi Tempat Duduk	    :	750 mm <br>
+Berat Isi	            :	92 kg <br>
+Kapasitas Tangki Bensin	:	4,2 L <br>
+            </p>
+        </details>
+        <details align="left">
+            <summary>Kelistrikan</summary>
+            <p>
+                
+Sistem Pengapian	:	TCI <br>
+Battery	:	YTZ4V/GTZ4V <br>
+Tipe Busi	:	NGK/CR6HSA <br>
+            </p>
+        </details>
+    </th>
+</tr>
+<tr>
+    <th colspan="4"><a href="https://www.yamaha-motor.co.id/product/mio-m3/">Lihat detail ditoko</a></th>
+</tr>
+    </table>
+</body>
+</html>
